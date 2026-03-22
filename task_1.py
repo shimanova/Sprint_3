@@ -14,4 +14,4 @@ class OnlineSalesRegisterCollector:
     # Геттер для number_items
     @property
     def number_items(self):
-        return self.__number_items
+        return self.__number_items 
