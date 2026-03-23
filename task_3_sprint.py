@@ -61,4 +61,4 @@ class OnlineSalesRegisterCollector:
             raise ValueError('Необходимо ввести цифры')
         if len(str(telephone_number)) != 10:
             raise ValueError('Необходимо ввести 10 цифр после "+7"')
-        return f'+7{telephone_number}'
+        return f'+7{telephone_number}'     
